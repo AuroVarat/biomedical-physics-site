@@ -55,7 +55,7 @@ const researchers = [
         homepage: "https://sites.google.com/view/aidan-brown/home",
         expertise: "Experimental and theoretical physicist at SoPA, with expertise in experiments with bacteria and bacteriophages, hydrodynamic theory and mathematical biology modelling",
         interests: "Bacteriophage and bacterial biophysics, biomedical soft matter physics, active matter and active interfaces",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     },
     {
         name: "Paul Digard",
@@ -63,6 +63,13 @@ const researchers = [
         expertise: "Virologist at Roslin, with expertise in microscopy, molecular and cell biology experiments",
         interests: "Molecular biology of influenza replication, mechanisms of function of RNA viruses, herpesviruses, translational studies on antiviral drug development",
         institute: "Roslin"
+    },
+    {
+        name: "Mariia Dvoriashyna",
+        homepage: "https://sites.google.com/view/dvoriashyna/home"
+        expertise: "Fluid mechanics, mathematical modelling",
+        interests: "Understanding the role of cerebrospinal fluid in the transport of solutes in and around the brain",
+        institute: "School of Mathematics"
     },
     {
         name: "Rowland Kao",
@@ -90,21 +97,28 @@ const researchers = [
         homepage: "https://caitmacphee.co.uk",
         expertise: "Experimental biophysicist at SoPA and founder of NBIC, with expertise in microscopy and rheology experiments",
         interests: "Biofilm structure and function, biofilm formation, biomedical soft matter physics",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
+    },
+    {
+        name: "Gavin Melaugh",
+        homepage: "https://www.ph.ed.ac.uk/people/gavin-melaugh",
+        expertise: "Experimental characterisation of microbial communities and computer simulation",
+        interests: "Microbial biofilm formation and aggregation",
+        institute: "School of Physics and Astronomy"
     },
     {
         name: "Wilson Poon",
         homepage: "https://www2.ph.ed.ac.uk/~wckp/",
         expertise: "Experimental biophysicist and soft matter physicist at SoPA, with expertise in microscopy and rheology",
         interests: "Bacterial biophysics, biomedical soft matter physics, RNA droplet evaporation, the importance of viral aerosols in SARS-Cov-2 spreading",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     },
     {
         name: "Simon Titmuss",
         homepage: "https://www2.ph.ed.ac.uk/~stitmuss",
         expertise: "Experimental biophysicist at SoPA, with expertise in neutron and X-ray scattering",
         interests: "Self-assembly of viruses, evaporation of viral droplets, viral aerosols",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     }
 ];
 

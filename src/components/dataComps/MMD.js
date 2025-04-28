@@ -55,21 +55,21 @@ const researchers = [
         homepage: "https://sites.google.com/site/cabrackley",
         expertise: "Theoretical physicist at SoPA, with expertise in theory and simulations of chromatin organisation at the nucleosome and whole-chromosome scale",
         interests: "3D chromatin structure in health and disease, chromatin remodelling in cancer, DNA and chromatin supercoiling in health and disease",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     },
     {
         name: "Gerry Brien",
         homepage: "https://www.ed.ac.uk/cancer-centre/research/brien-group",
         expertise: "Chromatin biochemist at the IGC, Cancer Research UK Scotland, with expertise in cancer epigenetics",
         interests: "Mechanisms of epigenetic disregulation in cancer, biochemistry of chromatin regulation, development of new cancer therapeutics",
-        institute: "IGC, Cancer Research UK Scotland"
+        institute: "Institute of Genetics and Cancer, Cancer Research UK Scotland"
     },
     {
         name: "Nick Gilbert",
         homepage: "https://www.chromatinlab.org",
         expertise: "Chromatin biologist at the IGC, with expertise in optical and super-resolution microscopy, cell biology assays, next-generation sequencing",
         interests: "3D structure of chromatin and chromosomes, transcription in health and disease, chromatin topology in health and disease, common fragile sites, chromatin supercoiling, single-cell RNA-seq",
-        institute: "IGC"
+        institute: "Institute of Genetics and Cancer"
     },
     {
         name: "Ava Khamseh",
@@ -83,28 +83,28 @@ const researchers = [
         homepage: "https://www2.ph.ed.ac.uk/~dmarendu",
         expertise: "Theoretical physicist at SoPA, with expertise in polymer models, coarse-grained molecular dynamics simulations, statistical models",
         interests: "3D structure of chromatin and chromosomes, transcription in health and disease, chromatin topology in health and disease",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     },
     {
         name: "Catherine Naughton",
         homepage: "https://www.research.ed.ac.uk/en/persons/catherine-naughton",
         expertise: "Molecular biologist at IGC, with expertise in microscopy, sequencing experiments and supercoiling mapping",
         interests: "Centromeric chromatin structure, chromosome instability, transcription in health and disease, chromatin supercoiling in health and disease",
-        institute: "IGC"
+        institute: "Institute of Genetics and Cancer"
     },
     {
         name: "Giuseppe Negro",
         homepage: "https://it.linkedin.com/in/giuseppe-negro-698502121",
         expertise: "Computational physicist at SoPA, with expertise in large-scale computer simulations of biological and soft matter physics",
         interests: "RNA/protein gels inside the nucleus, phase field modelling for chromatin, modelling of nuclear structures in eukaryotes",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     },
     {
         name: "Willem Vanderlinden",
         homepage: "https://www.ph.ed.ac.uk/people/willem-vanderlinden",
         expertise: "Biophysicist at SoPA, with expertise in atomic force microscopy and single molecule experiments",
         interests: "3D structure of chromatin and chromosomes, chromatin-binding proteins, DNA and chromatin topology",
-        institute: "SoPA"
+        institute: "School of Physics and Astronomy"
     }
 ];
 
