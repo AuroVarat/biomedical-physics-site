@@ -75,7 +75,7 @@ const researchers = [
     {
         name: "Matthew Gil",
         homepage: "https://www.sinapse.ac.uk/people/mgil/",
-        expertise: "PET Imaging, Medical Image Processing and Machine Learning"
+        expertise: "PET Imaging, Medical Image Processing and Machine Learning",
         interests: "PET Imaging, Medical Image Processing and Machine Learning",
         institute: "Siemens Healthineers"
     },

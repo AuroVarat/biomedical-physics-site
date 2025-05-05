@@ -66,9 +66,9 @@ const researchers = [
     },
     {
         name: "Mariia Dvoriashyna",
-        homepage: "https://sites.google.com/view/dvoriashyna/home"
-        expertise: "Fluid mechanics, mathematical modelling",
-        interests: "Understanding the role of cerebrospinal fluid in the transport of solutes in and around the brain",
+        homepage: "https://sites.google.com/view/dvoriashyna/home",
+        expertise: "Understanding the role of cerebrospinal fluid in the transport of solutes in and around the brain",
+        interests: "Fluid mechanics, mathematical modelling",
         institute: "School of Mathematics"
     },
     {
