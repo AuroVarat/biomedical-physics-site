@@ -107,10 +107,31 @@ const researchers = [
         institute: "School of Physics and Astronomy"
     },
     {
+        name: "Christine Merrick",
+        homepage: "https://www.research.ed.ac.uk/en/persons/christine-merrick",
+        expertise: "Molecular biology, Assay development, High throughput screening",
+        interests: "Development of new materials with biomedical applications",
+        institute: "Institute of Quantitative Biology, Biochemistry and Biotechnology"
+    },
+    {
         name: "Wilson Poon",
         homepage: "https://www2.ph.ed.ac.uk/~wckp/",
         expertise: "Experimental biophysicist and soft matter physicist at SoPA, with expertise in microscopy and rheology",
         interests: "Bacterial biophysics, biomedical soft matter physics, RNA droplet evaporation, the importance of viral aerosols in SARS-Cov-2 spreading",
+        institute: "School of Physics and Astronomy"
+    },
+    {
+        name: "Linus Schumacher",
+        homepage: "https://edwebprofiles.ed.ac.uk/profile/linus-schumacher",
+        expertise: "Stochastic models of clonal dynamics; Bayesian parameter inference and model comparison; Machine-learning aided construction of dynamic mathematical models from tissue-level data",
+        interests: "Cell interactions and tissue dynamics in development and disease; cell circuits in fibrotic diseases; improving cell therapies in Type 1 Diabetes",
+        institute: "Centre for Regenerative Medicine"
+    },
+    {
+        name: "Tyler Shendruk",
+        homepage: "https://www.ph.ed.ac.uk/people/tyler-shendruk",
+        expertise: "Coarse-grained simulations, Fluctuating hydrodynamics, Intrinsically non-equilibrium materials",
+        interests: "Bacteria dynamics, Advective/diffusive transport, Biomolecules",
         institute: "School of Physics and Astronomy"
     },
     {
@@ -124,11 +145,11 @@ const researchers = [
 
 const PhDStudents = [
     "Jenna Schafers",
-   "Ignacio Salinas",
-   "Laila Saliekhbe",
-   "Ofelia Popescu",
-    "Liqi Chen"
-
+    "Ignacio Salinas",
+    "Laila Saliekhbe",
+    "Ofelia Popescu",
+    "Liqi Chen",
+    "Marcin Krzysztof Maniak"
 ];
 
 export const POV = {

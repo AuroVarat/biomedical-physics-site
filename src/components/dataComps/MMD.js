@@ -65,6 +65,13 @@ const researchers = [
         institute: "Institute of Genetics and Cancer, Cancer Research UK Scotland"
     },
     {
+        name: "Sara Buonomo",
+        homepage: "https://buonomo.bio.ed.ac.uk/",
+        expertise: "Chromatin architecture, both at single cell and genome wide",
+        interests: "Chromatin architecture, DNA replication and epigenetics connection",
+        institute: "Institue of Cell Biology"
+    },
+    {
         name: "Nick Gilbert",
         homepage: "https://www.chromatinlab.org",
         expertise: "Chromatin biologist at the IGC, with expertise in optical and super-resolution microscopy, cell biology assays, next-generation sequencing",
