@@ -5,6 +5,7 @@ import {CircularButton,  researchAreas} from "../components/dataComps/researchAr
 import {events} from "../components/dataComps/events";
 import React from "react";
 import {useNavigate} from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Home() {
     const navigate = useNavigate();
@@ -16,6 +17,7 @@ function Home() {
     };
 
     return (
+        <div>
       <div className={'flex flex-col  min-h-screen w-screen  bg-gray-200'}>
 
           <Header/>
@@ -84,19 +86,19 @@ function Home() {
 
                               >
                                   <p className={'text-gray-300 font-bold '}>{_.subtitle}</p>
-                                  <h1 className={' font-bold text-white text-4xl md:text-xl lg:text-2xl'}>{_.title}</h1>
+                                  <h1 className={'min-w-100 font-bold text-white text-lg md:text-lg lg:text-2xl break-words'}>{_.title}</h1>
                                   <div className={'text-white mt-2 h-full'}>
                                       <div className={'flex flex-col h-full'}>
                                           {/*<p className="text-white">Join us for a discussion on the latest research in the field of virology.</p>*/}
                                           <div className={'flex flex-col flex-grow '}>
-                                              <p className="text-white">{_.location}</p>
-                                              <p className="text-white">{_.date}</p>
-                                              <p className="text-white">{_.time}</p>
+                                              <p className="text-white md:text-sm">{_.location}</p>
+                                              <p className="text-white md:text-sm">{_.date} | {_.time}</p>
+                                              <p className="text-white"></p>
 
                                           </div>
 
                                           <div className="w-full flex flex-row justify-between items-center">
-                                              <p className={'text-white pr-16 '}>{_.description}</p>
+                                              <p className={'text-white pr-16 md:text-sm'}>{_.description}</p>
                                               <button
                                                   className="bg-white text-red-900 font-bold py-2 px-4 rounded-3xl flex-grow mr-2 last:mr-0"
                                                   onClick={() => window.open(_.registerLink, '_blank')}
@@ -127,8 +129,8 @@ function Home() {
 
 
           {/*</div>*/}
-
-
+      </div>
+        <Footer/>
       </div>
 
     );
