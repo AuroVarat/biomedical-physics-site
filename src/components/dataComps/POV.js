@@ -117,7 +117,7 @@ const researchers = [
         name: "Linus Schumacher",
         homepage: "https://edwebprofiles.ed.ac.uk/profile/linus-schumacher",
         expertise: "Stochastic models of clonal dynamics; Bayesian parameter inference and model comparison; Machine-learning aided construction of dynamic mathematical models from tissue-level data",
-        interests: "Cell interactions and tissue dynamics in development and disease; cell circuits in fibrotic diseases; improving cell therapies in Type 1 Diabetes",
+        interests: "Cell interactions and tissue dynamics in development and disease, cell circuits in fibrotic diseases, improving cell therapies in Type 1 Diabetes",
         institute: "Centre for Regenerative Medicine"
     },
     {
@@ -133,7 +133,7 @@ const researchers = [
         expertise: "Experimental biophysicist at SoPA, with expertise in neutron and X-ray scattering",
         interests: "Self-assembly of viruses, evaporation of viral droplets, viral aerosols",
         institute: "School of Physics and Astronomy"
-    }
+    },
     {
         name: "Qi Zhou",
         homepage: "https://edwebprofiles.ed.ac.uk/profile/qi-zhou",
@@ -141,7 +141,7 @@ const researchers = [
         interests: "Computational biophysics, Biological flow and transport, Biomedical micro/nanorobots",
         institute: "Institute for Neuroscience and Cardiovascular Research",
         photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/4_staff_photo_qi_zhou.jpg"
-    },
+    }
 ];
 
 const PhDStudents = [

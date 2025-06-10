@@ -181,7 +181,7 @@ const researchers = [
         name: "Robert Semple",
         homepage: "https://edwebprofiles.ed.ac.uk/profile/robert-semple",
         expertise: "Rare Disease Biology, Systemic and Cellular Metabolism, Cell signalling",
-        interests: "Interest in applying biophysical approaches to interrogate monogenic disease mechanism, including tools to interrogate a dynamic metabolic system, and cellular signalling.",
+        interests: "Applying biophysical approaches to interrogate monogenic disease mechanism, tools to interrogate a dynamic metabolic system, cellular signalling.",
         institute: "Centre for Cardiovascular Science",
         photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/semple_photo_6.22.jpg"
     },
