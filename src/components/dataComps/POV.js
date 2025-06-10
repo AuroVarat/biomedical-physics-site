@@ -107,13 +107,6 @@ const researchers = [
         institute: "School of Physics and Astronomy"
     },
     {
-        name: "Christine Merrick",
-        homepage: "https://www.research.ed.ac.uk/en/persons/christine-merrick",
-        expertise: "Molecular biology, Assay development, High throughput screening",
-        interests: "Development of new materials with biomedical applications",
-        institute: "Institute of Quantitative Biology, Biochemistry and Biotechnology"
-    },
-    {
         name: "Wilson Poon",
         homepage: "https://www2.ph.ed.ac.uk/~wckp/",
         expertise: "Experimental biophysicist and soft matter physicist at SoPA, with expertise in microscopy and rheology",
@@ -141,15 +134,24 @@ const researchers = [
         interests: "Self-assembly of viruses, evaporation of viral droplets, viral aerosols",
         institute: "School of Physics and Astronomy"
     }
+    {
+        name: "Qi Zhou",
+        homepage: "https://edwebprofiles.ed.ac.uk/profile/qi-zhou",
+        expertise: "Haemodynamics, Multiphysics modelling, High-performance computing",
+        interests: "Computational biophysics, Biological flow and transport, Biomedical micro/nanorobots",
+        institute: "Institute for Neuroscience and Cardiovascular Research",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/4_staff_photo_qi_zhou.jpg"
+    },
 ];
 
 const PhDStudents = [
-    "Jenna Schafers",
-    "Ignacio Salinas",
-    "Laila Saliekhbe",
-    "Ofelia Popescu",
     "Liqi Chen",
-    "Marcin Krzysztof Maniak"
+    "Marcin Krzysztof Maniak",
+    "Christopher Oldnall",
+    "Ofelia Popescu",
+    "Laila Saliekhbe",
+    "Ignacio Salinas",
+    "Jenna Schafers",
 ];
 
 export const POV = {
