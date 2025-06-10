@@ -8,7 +8,7 @@ const ResearcherCard = ({ researcher }) => {
         <div className="max-w-full flex  bg-white shadow-lg rounded-lg overflow-hidden m-4 px-4 py-4 gap-4">
             <div className="w-fit flex flex-col items-start gap-2 ">
                 <img
-                    src="https://placehold.co/150"
+                    src={researcher.photo}
                     alt="Profile"
                     className="h-fit w-fit object-cover rounded-lg"
                 />
