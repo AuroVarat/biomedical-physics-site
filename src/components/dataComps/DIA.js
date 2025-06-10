@@ -93,7 +93,7 @@ const researchers = [
         expertise: "Respiratory physiology and disease, Omic datasets in respiratory disease esp lung fibrosis, Bronchoscopic tools to assay human lungs",
         interests: "Functional imaging for human lung, Tools to measure lung dynamics and elasticity, AI tools for multiomic integration of datasets",
         institute: "Institute for Regeneration and Repair",
-        photo: "https://inflammation-research.ed.ac.uk/sites/default/files/styles/profile_picture/public/2024-09/hirani_head_shot_c.png.webp?itok=BwaVg4qb"
+        photo: "https://inflammation-research.ed.ac.uk/sites/default/files/styles/profile_picture/public/2024-09/hirani_head_shot_c.png.webp"
     },
     {
         name: "Lucy Kershaw",
@@ -180,7 +180,7 @@ const researchers = [
         expertise: "Development and analysis of (in vivo) microstructural quantitative MRI, with application to multiple sclerosis",
         interests: "Imaging, analysis, application of biomedical physics to multiple sclerosis",
         institute: "Centre for Clinical Brain Sciences",
-        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/anne_rowling_team_0243_2.jpg?itok=3hW9FMds"
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/anne_rowling_team_0243_2.jpg"
     }
 ];
 
