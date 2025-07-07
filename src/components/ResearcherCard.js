@@ -7,11 +7,13 @@ const ResearcherCard = ({ researcher }) => {
     return (
         <div className="max-w-full flex  bg-white shadow-lg rounded-lg overflow-hidden m-4 px-4 py-4 gap-4">
             <div className="w-fit flex flex-col items-start gap-2 ">
-                <img
-                    src={researcher.photo}
-                    alt="Profile"
-                    className="h-fit w-fit object-cover rounded-lg"
-                />
+<img
+    src={researcher.photo || "https://placehold.co/150"}
+    alt="Profile"
+    className="object-cover rounded-lg"
+    width={150}
+    height={150}
+/>
                 {/*<a href={researcher.homepage} className="text-blue-500 hover:underline  w-full">*/}
                 {/*    Visit Homepage*/}
                 {/*</a>*/}

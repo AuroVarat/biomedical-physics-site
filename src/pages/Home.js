@@ -2,18 +2,29 @@ import Header from "../components/Header";
 import Profile from "./Profile";
 import {motion} from "framer-motion";
 import {CircularButton,  researchAreas} from "../components/dataComps/researchAreas";
-import {events} from "../components/dataComps/events";
-import React from "react";
+import {events_list} from "../components/dataComps/events_list";
+import React, { useState } from "react";
 import {useNavigate} from "react-router-dom";
 import Footer from "../components/Footer";
 
 function Home() {
     const navigate = useNavigate();
+    const [showEventModal, setShowEventModal] = useState(false);
+    const [modalEvent, setModalEvent] = useState(null);
 
     const handleNavigate = (index) => {
         const researchArea = researchAreas[index];
         console.log(researchArea);
         navigate('/research-area', { state: researchArea });
+    };
+
+    const handleShowDescription = (event) => {
+        setModalEvent(event);
+        setShowEventModal(true);
+    };
+    const handleCloseModal = () => {
+        setShowEventModal(false);
+        setModalEvent(null);
     };
 
     return (
@@ -73,7 +84,7 @@ function Home() {
                   ))}
 
                   {
-                      events.map((_, index) => (
+                      events_list.map((_, index) => (
                           index === 0 && (
                               <motion.div
                                   key={index}
@@ -89,26 +100,26 @@ function Home() {
                                   <h1 className={'min-w-100 font-bold text-white text-lg md:text-lg lg:text-2xl break-words'}>{_.title}</h1>
                                   <div className={'text-white mt-2 h-full'}>
                                       <div className={'flex flex-col h-full'}>
-                                          {/*<p className="text-white">Join us for a discussion on the latest research in the field of virology.</p>*/}
                                           <div className={'flex flex-col flex-grow '}>
                                               <p className="text-white md:text-sm">{_.location}</p>
                                               <p className="text-white md:text-sm">{_.date} | {_.time}</p>
-                                              <p className="text-white"></p>
-
                                           </div>
-
                                           <div className="w-full flex flex-row justify-between items-center">
-                                              <p className={'text-white pr-16 md:text-sm'}>{_.description}</p>
+                                              {/*<p className={'text-white pr-4 md:text-sm truncate max-w-[120px]'} title={_.description}>*/}
+                                              {/*    {_.description.length > 40 ? `${_.description.slice(0, 40)}...` : _.description}*/}
+                                              {/*</p>*/}
                                               <button
                                                   className="bg-white text-red-900 font-bold py-2 px-4 rounded-3xl flex-grow mr-2 last:mr-0"
                                                   onClick={() => window.open(_.registerLink, '_blank')}
                                               >
                                                   Free
                                               </button>
-                                              {/*<button*/}
-                                              {/*    className="bg-transparent border-2 border-white text-white font-bold py-2 px-4 rounded-3xl flex-grow">*/}
-                                              {/*    More Events*/}
-                                              {/*</button>*/}
+                                              <button
+                                                  className="bg-transparent border-2 border-white text-white font-bold py-2 px-4 rounded-3xl flex-grow ml-2"
+                                                  onClick={() => handleShowDescription(_)}
+                                              >
+                                                  More Info
+                                              </button>
                                           </div>
                                       </div>
                                   </div>
@@ -117,10 +128,32 @@ function Home() {
                       ))
                   }
 
-
               </motion.div>
           </div>
 
+          {/* Modal for event description */}
+          {showEventModal && modalEvent && (
+              <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+                  <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full relative">
+                      <button
+                          className="absolute top-2 right-2 text-gray-700 hover:text-red-600 text-2xl font-bold"
+                          onClick={handleCloseModal}
+                      >
+                          &times;
+                      </button>
+                      <h2 className="text-2xl font-bold mb-2 text-gray-900">{modalEvent.title}</h2>
+                      <p className="mb-2 text-gray-700">{modalEvent.description}</p>
+                      <p className="text-sm text-gray-500">{modalEvent.location}</p>
+                      <p className="text-sm text-gray-500">{modalEvent.date} | {modalEvent.time}</p>
+                      <button
+                          className="mt-4 bg-red-900 text-white font-bold py-2 px-4 rounded-3xl"
+                          onClick={() => window.open(modalEvent.registerLink, '_blank')}
+                      >
+                          Register
+                      </button>
+                  </div>
+              </div>
+          )}
 
           {/*<AboutPage id={'contact'} className={'snap-start h-screen w-screen flex items-center justify-center bg-gray-900'}/>*/}
 
