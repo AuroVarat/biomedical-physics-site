@@ -74,6 +74,13 @@ const researchers = [
         institute: "School of Physics and Astronomy"
     },
     {
+        name: "Mariia Dvoriashyna",
+        homepage: "https://sites.google.com/view/dvoriashyna/home",
+        expertise: "Understanding the role of cerebrospinal fluid in the transport of solutes in and around the brain",
+        interests: "Fluid mechanics, mathematical modelling",
+        institute: "School of Mathematics"
+    },
+    {
         name: "Tracy Farr",
         homepage: "https://www.researchgate.net/profile/Tracy-Farr-2/2",
         expertise: "Cerebrovascular disease, Animal models, Preclinical MRI",
