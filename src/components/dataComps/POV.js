@@ -65,13 +65,6 @@ const researchers = [
         institute: "Roslin"
     },
     {
-        name: "Mariia Dvoriashyna",
-        homepage: "https://sites.google.com/view/dvoriashyna/home",
-        expertise: "Understanding the role of cerebrospinal fluid in the transport of solutes in and around the brain",
-        interests: "Fluid mechanics, mathematical modelling",
-        institute: "School of Mathematics"
-    },
-    {
         name: "Rowland Kao",
         homepage: "https://www.ed.ac.uk/profile/professor-rowland-kao",
         expertise: "Veterinary epidemiologist and data scientist joint between Roslin and SoPA, with expertise in modelling and statistical analysis of epidemics spreading",
