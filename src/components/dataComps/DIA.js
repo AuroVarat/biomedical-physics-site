@@ -204,7 +204,7 @@ export const DIA = {
         caption: "Simulation of a Total-Body PET scanner, showing a positron annihilation signal producing two photons from the centre of a cylindrical phantom that approximates a patient."
     },
     background: 'bg-gradient-to-r from-indigo-900 via-purple-800 to-blue-700',
-    description: "This area involves physicists, clinicians, and data scientists at different sites, focusing on developing machine learning and data science techniques for medical imaging purposes. A key application area is the analysis and simulations of full-body PET scans at Little France.",
+    description: "This area brings together physicists, clinicians, and data scientists from across the University who contribute to the full imaging pipeline - from detector design and image acquisition to advanced image analysis using machine learning and data science. Key application areas include the analysis and simulation of multimodal imaging data, including total body PET (notably from Edinburgh BioQuarter), MRI, CT, ultrasound, and a wide range of in vivo, in vitro, and ex vivo techniques such as microscopy and optical imaging.",
     researchers: researchers,
     phdStudents: PhDStudents,
 
