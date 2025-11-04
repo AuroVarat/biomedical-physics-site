@@ -63,21 +63,24 @@ const researchers = [
         homepage: "https://sites.google.com/site/cabrackley",
         expertise: "Theoretical physicist at SoPA, with expertise in theory and simulations of chromatin organisation at the nucleosome and whole-chromosome scale",
         interests: "3D chromatin structure in health and disease, chromatin remodelling in cancer, DNA and chromatin supercoiling in health and disease",
-        institute: "School of Physics and Astronomy"
+        institute: "School of Physics and Astronomy",
+        photo: "https://static.ph.ed.ac.uk/photos/people/cbrackle.jpg"
     },
     {
         name: "Gerry Brien",
         homepage: "https://www.ed.ac.uk/cancer-centre/research/brien-group",
         expertise: "Chromatin biochemist at the IGC, Cancer Research UK Scotland, with expertise in cancer epigenetics",
         interests: "Mechanisms of epigenetic disregulation in cancer, biochemistry of chromatin regulation, development of new cancer therapeutics",
-        institute: "Institute of Genetics and Cancer, Cancer Research UK Scotland"
+        institute: "Institute of Genetics and Cancer, Cancer Research UK Scotland",
+        photo: "https://institute-genetics-cancer.ed.ac.uk/sites/default/files/styles/profile_picture/public/2025-04/Gerry-Brien-portrait-100x130px.jpg.webp"
     },
     {
         name: "Sara Buonomo",
         homepage: "https://buonomo.bio.ed.ac.uk/",
         expertise: "Chromatin architecture, both at single cell and genome wide",
         interests: "Chromatin architecture, DNA replication and epigenetics connection",
-        institute: "Institute of Cell Biology"
+        institute: "Institute of Cell Biology",
+        photo: "https://biology.ed.ac.uk/sites/default/files/styles/portrait_575x700/public/2025-05/me.jpg.webp"
     },
     {
         name: "Scott L. Cockroft",
@@ -116,7 +119,8 @@ const researchers = [
         homepage: "https://www.chromatinlab.org",
         expertise: "Chromatin biologist at the IGC, with expertise in optical and super-resolution microscopy, cell biology assays, next-generation sequencing",
         interests: "3D structure of chromatin and chromosomes, transcription in health and disease, chromatin topology in health and disease, common fragile sites, chromatin supercoiling, single-cell RNA-seq",
-        institute: "Institute of Genetics and Cancer"
+        institute: "Institute of Genetics and Cancer",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/img_0833_copy.jpg"
     },
     {
         name: "Mathew Horrocks",
@@ -131,7 +135,8 @@ const researchers = [
         homepage: "https://institute-genetics-cancer.ed.ac.uk/research/research-groups-a-z/a-khamseh-group",
         expertise: "Computational biologist at the IGC and Informatics, with expertise in machine learning, statistics and causal inference",
         interests: "Genetics and transcriptomics in oncogenesis and cancer, population genetics, machine learning for large-scale biomedical data",
-        institute: "IGC and Informatics"
+        institute: "IGC and Informatics",
+        photo: "https://institute-genetics-cancer.ed.ac.uk/sites/default/files/styles/profile_picture/public/2025-08/Ava-Khamseh-Portrait-100x130px_1.jpg.webp"
     },
     {
         name: "Hannah Long",
@@ -146,7 +151,8 @@ const researchers = [
         homepage: "https://www2.ph.ed.ac.uk/~dmarendu",
         expertise: "Theoretical physicist at SoPA, with expertise in polymer models, coarse-grained molecular dynamics simulations, statistical models",
         interests: "3D structure of chromatin and chromosomes, transcription in health and disease, chromatin topology in health and disease",
-        institute: "School of Physics and Astronomy"
+        institute: "School of Physics and Astronomy",
+        photo: "https://static.ph.ed.ac.uk/photos/people/dmarendu.jpg"
     },
     {
         name: "Christine Merrick",

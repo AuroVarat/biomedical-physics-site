@@ -71,14 +71,16 @@ const researchers = [
         homepage: "https://www.ph.ed.ac.uk/people/paul-clegg",
         expertise: "Experimental physicist at SoPA, with expertise in colloid experiments, data science, and machine learning",
         interests: "Medical physics, PET imaging, Machine Learning for PET Analysis",
-        institute: "School of Physics and Astronomy"
+        institute: "School of Physics and Astronomy",
+        photo: "https://static.ph.ed.ac.uk/photos/people/pclegg.jpg"
     },
     {
         name: "Mariia Dvoriashyna",
         homepage: "https://sites.google.com/view/dvoriashyna/home",
         expertise: "Understanding the role of cerebrospinal fluid in the transport of solutes in and around the brain",
         interests: "Fluid mechanics, mathematical modelling",
-        institute: "School of Mathematics"
+        institute: "School of Mathematics",
+        photo: "https://webapps.maths.ed.ac.uk/assets/images/files-maths/staff/Dvoriashyna.jpg"
     },
     {
         name: "Tracy Farr",
@@ -86,6 +88,7 @@ const researchers = [
         expertise: "Cerebrovascular disease, Animal models, Preclinical MRI",
         interests: "MRI image analysis",
         institute: "Centre for Cardiovascular Science"
+
     },
     {
         name: "Matthew Gil",
@@ -114,14 +117,16 @@ const researchers = [
         homepage: "https://edwebprofiles.ed.ac.uk/profile/carmel-moran",
         expertise: "Imaging physicist, Experimental acoustics laboratory",
         interests: "Development of ultrasound imaging techniques for diagnosis and therapy in clinical and preclinical applications, Ultrasound contrast microbubbles as cavitation nuclei, Assessment of the performance of ultrasound scanners",
-        institute: "Centre for Cardiovascular Science"
+        institute: "Centre for Cardiovascular Science",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/c.moran_.jpg"
     },
     {
         name: "Franz Muheim",
         homepage: "https://www.ph.ed.ac.uk/people/franz-muheim",
         expertise: "Experimental physicist at SoPA, with expertise in large-scale experiments and detector design",
         interests: "Medical and PET imaging, detector physics",
-        institute: "School of Physics and Astronomy"
+        institute: "School of Physics and Astronomy",
+        photo: "https://static.ph.ed.ac.uk/photos/people/muheim.jpg"
     },
     {
         name: "Matt Needham",
@@ -142,28 +147,32 @@ const researchers = [
         homepage: "https://edwebprofiles.ed.ac.uk/profile/dr-michael-stringer",
         expertise: "MRI physicist, Image analysis for clinical research",
         interests: "Quantitative neuroimaging MRI methods development, Dynamic imaging of vascular dysfunction for stroke and other vascular diseases",
-        institute: "Centre for Clinical Brain Sciences"
+        institute: "Centre for Clinical Brain Sciences",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/michael_stringer_cropped.jpg"
     },
     {
         name: "Michael Thrippleton",
         homepage: "https://www.ed.ac.uk/profile/dr-michael-thrippleton",
         expertise: "Senior Research Fellow/Clinical Scientist, Edinburgh Imaging and Centre for Clinical Brain Sciences (BioQuarter)",
         interests: "MRI physics, magnetic resonance spectroscopy, quantitative imaging, brain imaging, biomarker development, validation and translation",
-        institute: "Edinburgh Imaging, Centre for Clinical Brain Sciences"
+        institute: "Edinburgh Imaging, Centre for Clinical Brain Sciences",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/20200408103249_img_8606_cropped.jpg"
     },
     {
         name: "Adam Waldman",
         homepage: "https://www.ed.ac.uk/profile/professor-adam-waldman",
         expertise: "Neuroradiologist at Little France, with expertise in medical imaging and clinical research",
         interests: "Development and clinical translation of quantitative neuroimaging techniques, neurooncology, neurodegenerative and neuroinflammatory diseases",
-        institute: "Edinburgh Imaging, Centre for Clinical Brain Sciences"
+        institute: "Edinburgh Imaging, Centre for Clinical Brain Sciences",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/adam_waldman_100x130.jpg"
     },
     {
         name: "Catriona Wimberley",
         homepage: "https://www.ph.ed.ac.uk/people/catriona-wimberley",
         expertise: "Medical physicist at SoPA, with expertise in PET and simulations of PET",
         interests: "PET imaging, Machine Learning in Medical Imaging, PET scan simulations, radiotracer physics",
-        institute: "School of Physics and Astronomy"
+        institute: "School of Physics and Astronomy",
+        photo: "https://static.ph.ed.ac.uk/photos/people/cwimberl.jpg"
     },
     {
         name: "Ann Wheeler",
@@ -192,7 +201,7 @@ const researchers = [
 ];
 
 const PhDStudents =
-    ["Bea Andrews", "Abhishek Bohare", "Agathe Bricout", "Robbie Haynes", "Abigail Hellman", "Aparna Jayraj", "Jan Kutos", "Michael Langsen"]
+    ["Bea Andrews", "Abhishek Bohare", "Agathe Bricout", "Robbie Haynes", "Abigail Hellman", "Aparna Jayraj", "Jan Kutos", "Michael Langsen", "Finn Onori", "Kate Renforth"]
 
 
 export const DIA = {
