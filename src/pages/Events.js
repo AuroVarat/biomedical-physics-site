@@ -30,6 +30,7 @@ const Events = () => {
                                 <button
                                     className="bg-white text-red-900 font-bold py-2 px-4 rounded-3xl"
                                     onClick={() => window.open(event.registerLink, '_blank')}
+                                    hidden={event.registerLink === ""}
                                 >
                                     Register
                                 </button>
