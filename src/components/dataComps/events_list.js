@@ -4,14 +4,26 @@
 
 export const events_list = [
     {
-        title: "Biomedical Physics at Edinburgh",
+        title: "Edinburgh Epigenetics",
         subtitle: "Upcoming Event",
+        description: "Speakers: Kyle Muir (Institute of Cell Biology, ICB, Edinburgh), Wenduo Qi (QMRI, Edinburgh), Qingqin Ji (ICB, Edinburgh), Caelan Bell (IMBA - Vienna); Free event, drinks and pizza 6-7",
+        background: "bg-gradient-to-r from-yellow-900 via-orange-700 to-red-600",
+        date: "Nov 12, 2025",
+        time: "4:00pm - 6:00pm",
+        location: "HRB Lecture Theatre, George Square",
+        registerLink: "",
+        slidesLink: ""
+    },
+    {
+        title: "Biomedical Physics at Edinburgh",
+        subtitle: "Past Event",
         description: "Launch event for the centre",
         background: "bg-gradient-to-r from-yellow-900 via-orange-700 to-red-600",
         date: "May 26, 2025",
         time: "9:30am - 5:00pm",
         location: "Elm Lecture Theatre, Kings Buildings Campus",
-        registerLink: "https://higgs.ph.ed.ac.uk/workshops/workshop-for-biomedical-physics-research-edinburgh/"
+        registerLink: "", //https://higgs.ph.ed.ac.uk/workshops/workshop-for-biomedical-physics-research-edinburgh/
+        slidesLink: "https://indico.ph.ed.ac.uk/event/370/timetable"
     },
     // {
     //     title: "AI in Biomedical Imaging Symposium",

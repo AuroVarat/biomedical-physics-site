@@ -111,8 +111,9 @@ function Home() {
                                               <button
                                                   className="bg-white text-red-900 font-bold py-2 px-4 rounded-3xl flex-grow mr-2 last:mr-0"
                                                   onClick={() => window.open(_.registerLink, '_blank')}
+                                                  hidden={_.registerLink === ""}
                                               >
-                                                  Free
+                                                  Register
                                               </button>
                                               <button
                                                   className="bg-transparent border-2 border-white text-white font-bold py-2 px-4 rounded-3xl flex-grow ml-2"
@@ -148,6 +149,7 @@ function Home() {
                       <button
                           className="mt-4 bg-red-900 text-white font-bold py-2 px-4 rounded-3xl"
                           onClick={() => window.open(modalEvent.registerLink, '_blank')}
+                          hidden={modalEvent.registerLink === ""}
                       >
                           Register
                       </button>

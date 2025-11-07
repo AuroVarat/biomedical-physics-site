@@ -93,7 +93,7 @@ const Profile = (props) => {
                     <span
                         className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white"
                     >
-                        UPCOMING EVENTS
+                        EVENTS LIST
                     </span>
                 </span>
             </div>
