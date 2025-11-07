@@ -35,6 +35,15 @@ const Events = () => {
                                     Register
                                 </button>
                             </div>
+                            <div className="mt-4 md:mt-0 md:ml-8 flex-shrink-0">
+                                <button
+                                    className="bg-white text-blue-900 font-bold py-2 px-4 rounded-3xl"
+                                    onClick={() => window.open(event.slidesLink, '_blank')}
+                                    hidden={event.slidesLink === ""}
+                                >
+                                    Slides
+                                </button>
+                            </div>
                         </div>
                     </div>
                 ))}

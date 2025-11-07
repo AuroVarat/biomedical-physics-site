@@ -11,7 +11,8 @@ export const events_list = [
         date: "Nov 12, 2025",
         time: "4:00pm - 6:00pm",
         location: "HRB Lecture Theatre, George Square",
-        registerLink: ""//https://higgs.ph.ed.ac.uk/workshops/workshop-for-biomedical-physics-research-edinburgh/"
+        registerLink: "",
+        slidesLink: ""
     },
     {
         title: "Biomedical Physics at Edinburgh",
@@ -21,7 +22,8 @@ export const events_list = [
         date: "May 26, 2025",
         time: "9:30am - 5:00pm",
         location: "Elm Lecture Theatre, Kings Buildings Campus",
-        registerLink: ""//https://higgs.ph.ed.ac.uk/workshops/workshop-for-biomedical-physics-research-edinburgh/"
+        registerLink: "", //https://higgs.ph.ed.ac.uk/workshops/workshop-for-biomedical-physics-research-edinburgh/
+        slidesLink: "https://indico.ph.ed.ac.uk/event/370/timetable"
     },
     // {
     //     title: "AI in Biomedical Imaging Symposium",
