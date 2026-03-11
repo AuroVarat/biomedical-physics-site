@@ -4,10 +4,21 @@
 
 export const events_list = [
     {
-        title: "Edinburgh Epigenetics",
+        title: "Biomedical Physics Jamboree",
         subtitle: "Upcoming Event",
+        description: "Updates on latest research in the centre",
+        background: "bg-gradient-to-r from-red-900 to-red-600",
+        date: "May 25, 2026",
+        time: "9:30am - 5:00pm",
+        location: "Nucleus building, Kings Buildings Campus",
+        registerLink: "",
+        slidesLink: ""
+    },
+    {
+        title: "Edinburgh Epigenetics",
+        subtitle: "Past Event",
         description: "Speakers: Kyle Muir (Institute of Cell Biology, ICB, Edinburgh), Wenduo Qi (QMRI, Edinburgh), Qingqin Ji (ICB, Edinburgh), Caelan Bell (IMBA - Vienna); Free event, drinks and pizza 6-7",
-        background: "bg-gradient-to-r from-yellow-900 via-orange-700 to-red-600",
+        background: "bg-gradient-to-r from-blue-900 to-blue-600",
         date: "Nov 12, 2025",
         time: "4:00pm - 6:00pm",
         location: "HRB Lecture Theatre, George Square",
@@ -18,7 +29,7 @@ export const events_list = [
         title: "Biomedical Physics at Edinburgh",
         subtitle: "Past Event",
         description: "Launch event for the centre",
-        background: "bg-gradient-to-r from-yellow-900 via-orange-700 to-red-600",
+        background: "bg-gradient-to-r from-blue-900 to-blue-600",
         date: "May 26, 2025",
         time: "9:30am - 5:00pm",
         location: "Elm Lecture Theatre, Kings Buildings Campus",
