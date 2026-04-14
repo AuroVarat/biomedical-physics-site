@@ -11,8 +11,8 @@ export const events_list = [
         date: "May 25, 2026",
         time: "9:30am - 5:00pm",
         location: "Nucleus building, Kings Buildings Campus",
-        registerLink: "",
-        slidesLink: ""
+        registerLink: "https://indico.ph.ed.ac.uk/event/422/registrations",
+        slidesLink: "https://indico.ph.ed.ac.uk/event/422/timetable"
     },
     {
         title: "Edinburgh Epigenetics",
