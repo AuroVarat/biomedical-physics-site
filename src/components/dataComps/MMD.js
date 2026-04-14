@@ -164,10 +164,18 @@ const researchers = [
     {
         name: "Davide Michieletto",
         homepage: "https://www.ph.ed.ac.uk/people/davide-michieletto",
-        expertise: "MD simulations , super-resolution microscopy, microrheology DNA-protein fluids",
+        expertise: "MD simulations, super-resolution microscopy, microrheology DNA-protein fluids",
         interests: "DNA topology (experiments/simulations), chromatin organisation (simulations), Topoisomerase-targeting drugs (ML and experiments), ",
         institute: "School of Physics and Astronomy",
         photo: "https://static.ph.ed.ac.uk/photos/people/dmichiel.jpg"
+    },
+    {
+        name: "David Moore",
+        homepage: "https://www.edinburghcomplexfluids.com/people/david-moore/",
+        expertise: "Skin barrier science, topical delivery, lipid biophysics, membrane spectroscopy",
+        interests: "Lipid organisation in skin health and disease",
+        institute: "Edinburgh Complex Fluids Partnership",
+        photo: "https://www.edinburghcomplexfluids.com/wp-content/uploads/d_moore_circle_01-1024x1024.png"
     },
     {
         name: "Catherine Naughton",
