@@ -4,7 +4,7 @@
 
 export const events_list = [
     {
-        title: "Biomedical Physics Jamboree",
+        title: "Biomedical Physics at Edinburgh",
         subtitle: "Upcoming Event",
         description: "Updates on latest research in the centre",
         background: "bg-gradient-to-r from-red-900 to-red-600",
