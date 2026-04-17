@@ -197,6 +197,14 @@ const researchers = [
         interests: "Imaging, analysis, application of biomedical physics to multiple sclerosis",
         institute: "Centre for Clinical Brain Sciences",
         photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/anne_rowling_team_0243_2.jpg"
+    },
+    {
+        name: "Qi Zhou",
+        homepage: "https://edwebprofiles.ed.ac.uk/profile/qi-zhou",
+        expertise: "Haemodynamics, Multiphysics modelling, High-performance computing",
+        interests: "Computational biophysics, Biological flow and transport, Biomedical micro/nanorobots",
+        institute: "Institute for Neuroscience and Cardiovascular Research",
+        photo: "https://edwebprofiles.ed.ac.uk/sites/default/files/styles/uoe_profile_picture/public/4_staff_photo_qi_zhou.jpg"
     }
 ];
 
