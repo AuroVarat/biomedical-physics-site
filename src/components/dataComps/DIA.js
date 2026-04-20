@@ -60,13 +60,6 @@ const researchers = [
         photo: ""
     },
     {
-        name: "Hanna Borecka-Bielska",
-        homepage: "https://www.ph.ed.ac.uk/people/hanna-borecka-bielska",
-        expertise: "Experimental physicist at SoPA, with expertise in PET scanner simulations, scintillators for PET",
-        interests: "Novel clinical applications of PET",
-        institute: "School of Physics and Astronomy"
-    },
-    {
         name: "Paul Clegg",
         homepage: "https://www.ph.ed.ac.uk/people/paul-clegg",
         expertise: "Experimental physicist at SoPA, with expertise in colloid experiments, data science, and machine learning",
