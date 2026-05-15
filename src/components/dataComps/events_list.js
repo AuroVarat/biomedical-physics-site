@@ -6,7 +6,7 @@ export const events_list = [
     {
         title: "Biomedical Physics at Edinburgh",
         subtitle: "Upcoming Event",
-        description: "Updates on latest research in the centre",
+        description: "This one-day Biomedical Physics Workshop, which will be the third in the series, aims to bring together researchers across Edinburgh working at the interface of physics and medicine. The workshop is part of the activities of the recently established Edinburgh Centre for Biomedical Physics. The aim of the Centre and this workshop is to bring together researchers working in the domain of physics for medicine. This workshop will bring researchers together to foster opportunities for new collaborations.  There will be three main sessions presented during the workshop, which parallel the three main themes of the Edinburgh Centre for Biomedical Physics: (i) detectors, imaging and analysis; (ii) molecular mechanisms of disease; (iii) physics of infection. This year the workshop will feature lightning presentations to broaden participation and increase visibility for early-career researchers and emerging projects which would benefit from interdisciplinary interactions with complementary expertise. An impact-focused discussion session will further explore how interdisciplinary, cross-College research in biomedical physics can translate into impact.",
         background: "bg-gradient-to-r from-red-900 to-red-600",
         date: "May 25, 2026",
         time: "9:30am - 5:00pm",
